@@ -1,25 +1,32 @@
 <h1>Incident report with NIST CSF </h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+
+The project consists of analyzing a network incident following the the National Institute of Standards and Technology's Cybersecurity Framework (NIST CSF). Findings and analysis are included into an incident report.<br />
+
+The [**NIST CSF**](https://www.nist.gov/cyberframework)is a voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk. The CSF is scalable and can be applied in a wide variety of contexts.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Scenario</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+>You are a cybersecurity analyst working for a multimedia company that offers web design services, graphic design, and social media marketing solutions to small businesses. Your organization recently experienced a DDoS attack, which compromised the internal network for two hours until it was resolved.
 
-<h2>Environments Used </h2>
+>During the attack, your organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets. Normal internal network traffic could not access any network resources. The incident management team responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services. 
 
-- <b>Windows 10</b> (21H2)
+>The company’s cybersecurity team then investigated the security event. They found that a malicious actor had sent a flood of ICMP pings into the company’s network through an unconfigured firewall. This vulnerability allowed the malicious attacker to overwhelm the company’s network through a distributed denial of service (DDoS) attack. 
+To address this security event, the network security team implemented: 
+•	A new firewall rule to limit the rate of incoming ICMP packets
+•	Source IP address verification on the firewall to check for spoofed IP addresses on incoming ICMP packets
+•	Network monitoring software to detect abnormal traffic patterns
+•	An IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics
 
-<h2>Program walk-through:</h2>
+>As a cybersecurity analyst, you are tasked with using this security event to create a plan to improve your company’s network security, following the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF). You will use the CSF to help you navigate. 
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<h2>Learnings </h2>
+
+
+
 
 <!--
  ```diff
