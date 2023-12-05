@@ -6,7 +6,7 @@ The project consists of analyzing a network incident following the the National 
 
 The [**NIST CSF**](https://www.nist.gov/cyberframework)is a voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk. The CSF is scalable and can be applied in a wide variety of contexts.<br />
 
-I applied the five functions of the  NIST CSF and produced an incident report, where I covered:<br />
+I applied the five functions of the  NIST CSF and produced an [_incident report_](https://github.com/arnius88/IncidentReport/blob/main/Incident%20report%20analysis.pdf), where I covered:<br />
 
 - identify the type of attack and the systems affected
 - how to protect the assets in your organization from being compromised
