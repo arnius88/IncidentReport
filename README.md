@@ -42,14 +42,3 @@ To address this security event, the network security team implemented:<br />
 - <b>The importance of having a strategy in place for future incidents<br />
 - <b>Be able to prioritize resources and assets when a security incident occurs<br />
 
-
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
