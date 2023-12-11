@@ -4,12 +4,12 @@
 
 The project consists of analyzing a network incident with help of the the National Institute of Standards and Technology's Cybersecurity Framework (NIST CSF).<br />
 
-The [**NIST CSF**](https://www.nist.gov/cyberframework)is a voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk. The CSF is scalable and can be applied in a wide variety of contexts.<br />
+The [**NIST CSF**](https://www.nist.gov/cyberframework) is a voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk. The CSF is scalable and can be applied in a wide variety of contexts.<br />
 
 I applied the five functions of the  NIST CSF to the scenario and produced an [_incident report_](https://github.com/arnius88/IncidentReport/blob/main/Incident%20report%20analysis.pdf), where I covered the following points:<br />
 
 - **identify** the type of attack and the systems affected
-- how to **protect** the assets in your organization from being compromised
+- how to **protect** the assets in the organization from being compromised
 - determine how to **detect** similar incidents in the future
 - create a **response** plan for future cybersecurity incidents
 - help the organization **recover** from the incident
